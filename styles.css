@@ -784,6 +784,14 @@ span {
     padding: 1.5rem;
   }
 
+  .portfolio-layer h4 {
+    font-size: 2rem;
+  }
+
+  .portfolio-layer p {
+    font-size: 1.2rem;
+  }
+
   .home .profession-container .circle {
     display: none;
   }
