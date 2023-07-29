@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <title>Portfolio Website</title>
+
+  <!-- swiper css -->
+
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+
+  <!-- header design -->
+<header class="header">
+  <a href="#" class="logo">Portfolio</a>
+  <nav class="navbar">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="bx bx-moon" id="darkMode-icon"></div>
+
+  <div class="bx bx-menu" id="menu-icon"></div>
+</header>
+
+<!-- home section design -->
+
+<section class="home" id="home">
+  <div class="home-content">
+    <h3>Hello, I am</h3>
+    <h1>Igor Efremov</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum ipsa quam laudantium eveniet minus voluptate deleniti, doloribus recusandae</p>
+    <div class="social-media">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="#"><i class='bx bxl-vk'></i></a>
+      <a href="#"><i class='bx bxl-linkedin'></i></a>
+    </div>
+
+    <a href="#" class="btn">Download CV</a>
+  </div>
+
+  <div class="profession-container">
+    <div class="profession-box">
+      <div class="profession" style="--i:0;">
+        <i class='bx bx-code-alt'></i>
+        <h3>Web Developer</h3>
+      </div>
+      <div class="profession" style="--i:1;">
+        <i class='bx bx-paint'></i>
+        <h3>Web Designer</h3>
+      </div>
+      <div class="profession" style="--i:2;">
+        <i class='bx bxs-wrench'></i>
+        <h3>HVAC Technician</h3>
+      </div>
+      <div class="profession" style="--i:3;">
+        <i class='bx bx-music'></i>
+        <h3>Drummer</h3>
+      </div>
+  
+      <div class="circle"></div>
+    </div>
+  
+    <div class="overlay"></div>
+  </div>
+
+<div class="home-img">
+  <!-- // possible home img -->
+</div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-img">
+    <img src="images/about.jpg" alt="">
+  </div>
+
+  <div class="about-content">
+    <h2 class="heading">About <span>Me</span></h2>
+    <h3>Hello, I am here to help you with your projects</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda deserunt error soluta voluptate totam architecto officia corporis labore tempore? Consectetur magni inventore aspernatur. In ratione laborum quis provident modi, amet beatae cum, error ut sequi asperiores eum! Eligendi, itaque ducimus!
+    </p>
+    <a href="#" class="btn">Read More</a>
+  </div>
+</section>
+
+<!-- service -->
+<section class="services" id="services">
+  <h2 class="heading">My <span>Certifications</span></h2>
+
+  <div class="services-container">
+    <div class="services-box">
+      <i class='bx bx-code-block'></i>
+      <h3>HTML and CSS</h3><br>
+      <h3>Certification</h3>
+      <p>This certifies that<br>
+        <span class="underline-text">Igor Efremov</span><br>
+        has successfully completed the freeCodeCamp.org<br>
+        Responsive Web Design<br>
+        Developer Certification, representing approximately 300 hours of coursework.</p>
+      <a href="https://freecodecamp.org/certification/Igor693/responsive-web-design" class="btn">Click to View</a>
+    </div>
+
+    <div class="services-box">
+      <i class='bx bx-palette'></i>
+      <h3>JS Certification</h3><br>
+      <h3>Coming Soon...</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod similique cumque recusandae corrupti beatae tenetur ab reiciendis veritatis dolor, laborum quos est saepe vitae harum eveniet sint eum nesciunt molestias. Eius cumque laborum culpa mollitia vitae nostrum aspernatur aliquam deleniti?</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+
+    <div class="services-box">
+      <i class='bx bxs-wrench'></i>
+      <h3>Back-End Certification</h3><br>
+      <h3>Coming Soon...</h3>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod similique cumque recusandae corrupti beatae tenetur ab reiciendis veritatis dolor, laborum quos est saepe vitae harum eveniet sint eum nesciunt molestias. Eius cumque laborum culpa mollitia vitae nostrum aspernatur aliquam deleniti?</p>
+      <a href="#" class="btn">Read More</a>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio" id="portfolio">
+  <h2 class="heading">Latest <span>Projects</span></h2>
+
+  <div class="portfolio-container">
+    <div class="portfolio-box">
+    <img src="images/portfolio.png" alt="web-portfolio" height="400" width="600">
+    <div class="portfolio-layer">
+      <h4>Bank App</h4>
+      <p>
+        I have built a cutting-edge bank application using the latest web technologies. This innovative app was crafted using HTML, CSS, and Vite.js, ensuring optimal performance and responsiveness. With an intuitive user interface and seamless navigation, the bank app offers a modern banking experience like never before 
+      </p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+  </div>
+
+    <div class="portfolio-box">
+    <img src="images/portfolio1.png" alt="web-portfolio" height="400" width="600">
+    <div class="portfolio-layer">
+      <h4>Modern App</h4>
+      <p>I have built this beatiful webpage using the latest web technologies. This innovative webpage was crafted using HTML, CSS, and React.js, ensuring optimal performance and responsiveness. With an intuitive user interface and seamless navigation, this webpage offers a modern navigating experience like never before</p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box">
+    <img src="images/portfolio2.png" alt="web-portfolio" height="400" width="600">
+    <div class="portfolio-layer">
+      <h4>Restaurant App</h4>
+      <p>
+        I have developed a state-of-the-art restaurant application using the latest web technologies. This revolutionary app was meticulously created using HTML, CSS, and React.js, guaranteeing exceptional performance and responsiveness. With a user-friendly interface and effortless navigation, the restaurant app provides a modern dining experience like never before
+      </p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+  </div>
+
+  <div class="portfolio-box">
+    <img src="images/portfolio3.jpg" alt="web-portfolio" height="400" width="600">
+    <div class="portfolio-layer">
+      <h4>Web Design</h4>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quasi nemo laborum, expedita magnam aliquid illo voluptates, corporis, culpa architecto exercitationem quae debitis? Dolore facilis quas cum quae accusantium, fugiat tempore quasi optio facere hic incidunt impedit eum, maiores voluptates
+      </p>
+      <a href="#"><i class='bx bx-link-external'></i></a>
+    </div>
+  </div>
+ </div> 
+</section>
+
+<!-- testimonial design -->
+
+<div class="testimonial-container">
+  <h2 class="heading">Valuable <span>Testimonials</span></h2>
+  <div class="testimonial-wrapper">
+    <div class="testimonial-box mySwiper">
+      <div class="testimonial-content swiper-wrapper">
+        <div class="testimonial-slide swiper-slide">
+          <img src="images/testimonial.jpg" alt=""> 
+          <h3>Alexander Mineev</h3> 
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, voluptate!</p>
+        </div>
+        <div class="testimonial-slide swiper-slide">
+          <img src="images/testimonial2.jpg" alt=""> 
+          <h3>Andrey Arshavin</h3> 
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, voluptate!</p>
+        </div>
+        <div class="testimonial-slide swiper-slide">
+          <img src="images/testimonial3.jpg" alt=""> 
+          <h3>Daniyar Bilyaletdinov</h3> 
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam, voluptate!</p>
+        </div>
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>            
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+<!-- contact section design -->
+<section class="contact" id="contact">
+  <h2 class="heading">Contact <span>Me</span></h2>
+
+  <form action="#">
+    <div class="input-box">
+      <input type="text" placeholder="Full Name">
+      <input type="text" placeholder="Email Address">
+    </div>
+    <div class="input-box">
+      <input type="" placeholder="Mobile Number">
+      <input type="text" placeholder="Email Subject">
+    </div>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+    <input type="submit" value="Send Message" class="btn">
+  </form>
+</section>
+
+<!-- footer design -->
+<footer class="footer">
+  <div class="footer-text">
+    <p>Copyright $copy. 2023 by Igor Efremov | All Rights Reserved</p>
+  </div>
+
+  <div class="footer-iconTop">
+    <a href="#home"><i class='bx bxs-up-arrow'></i></a>
+  </div>
+</footer>
+
+<!-- scroll reveal -->
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+
+<!-- swiper js -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<!-- custom js -->
+  <script src="script.js"></script>
+</body>
+</html>
