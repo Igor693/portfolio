@@ -796,6 +796,11 @@ span {
     display: none;
   }
 
+  .testimonial-wrapper .testimonial-box {
+    padding: 2rem;
+    overflow: hidden;
+  }
+
   /* Drop-down menu styles */
   .navbar {
     display: none;
